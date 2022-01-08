@@ -1,4 +1,4 @@
-  
+
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
@@ -8,6 +8,7 @@ export default makeStyles(() => ({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
+    backgroundColor: 'red',
     alignItems: 'center',
   },
   heading: {
