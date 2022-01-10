@@ -3,7 +3,7 @@ import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import Posts from './components/posts/posts';
 import Form from './components/form/form';
-import dogo from './images/dogo.jfif';
+import dogo from './images/dog22.jpg';
 import useStyles from './styles';
 import { getPosts } from './actions/posts';
 
@@ -19,7 +19,7 @@ const App = ()=> {
     return(
         <Container maxWidth="lg">
         <AppBar className={classes.appBar} position="static" color="inherit">
-          <Typography className={classes.heading} variant="h2" align="center">Dogo Heaven</Typography>
+          <Typography className={classes.heading} variant="h2" align="center">Dog-O Heaven</Typography>
           <img className={classes.image} src={dogo} alt="icon" height="60" />
         </AppBar>
         <Grow in>
