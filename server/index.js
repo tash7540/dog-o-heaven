@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 const corsOptions = {
-    origin: 'https://stellar-praline-5c51c7.netlify.app',
+    origin: '*',
     credentials: true,
 };
 app.use(cors(corsOptions));
